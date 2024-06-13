@@ -1,7 +1,5 @@
 import pyautogui
-from time import sleep
 
-pyautogui.moveTo(1243,428, duration=1)
-
-for i in range(1000):
-    pyautogui.click()
+pyautogui.click(1243,428, clicks=1500,
+        interval=0.5,button='left',
+        duration=2)
