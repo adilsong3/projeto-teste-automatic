@@ -24,7 +24,7 @@ def clicar_digite_mensagem():
     pyautogui.leftClick(1463,1002, duration=1)
 
 def mensagem_escolhida():
-    texto = '''Oi Amor, estou com fome.'''
+    texto = '''Familia, estou com fome.'''
     pyautogui.typewrite(texto, interval=0.1)
 
 def clicar_enviar():
